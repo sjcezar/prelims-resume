@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Joseph Cezar - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      opacity: 0;
+      transition: opacity 2s ease-in-out;
+      animation: fadeIn 4s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    hr {
+      margin: 20px 0;
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+
+    hr.blue-line {
+      border-top: 3px solid blue;
+      width: 0; 
+      margin: auto;
+      animation: growLine 2s ease forwards;
+    }
+
+    @keyframes growLine {
+      0% { width: 0; }
+      100% { width: 300px; }
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeInText 2s ease forwards;
+    }
+
+    @keyframes fadeInText {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .software-engineer {
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px; 
+      font-weight: bold; 
+      color: #333; 
+      margin-top: 20px; 
+      margin-bottom: 20px; 
+    }
+	
+  </style>
+</head>
+<body>
+  <div class="container show">
+    <img src="your_photo.jpg" alt="My Photo">
+    <h1>Samuel Joseph Cezar</h1>
+    <hr class="blue-line">
+    <h2 class="fade-in software-engineer"><i>SOFTWARE ENGINEER </i></h2>
+    <hr>
+    <p><strong>Address:</strong> Block 19, Lot 11, Grandvale Deca Homes, San Felipe, Naga City, Camarines Sur</p>
+    <p><strong>Contact Information:</strong> cezarsjsj@gmail.com</p>
+    <hr>
+    <h2>Short Personal Statement</h2>
+    <p><i>A graduate from Ateneo de Naga University with a Bachelor of Science degree in Computer Science and a Master's degree in Computer Science, equipped with expertise in software development and game development. Ready to leverage this educational background to excel in the tech industry.</i></p>
+    <hr>
+    <h2>Educational History</h2>
+    <ul>
+      <li><strong>Bachelor of Science in Computer Science</strong></li>
+	  <li>&#8226; Ateneo de Naga University, 2026</li>
+		<strong>Master of Science in Computer Science</strong><br>
+		&#8226; Ateneo de Naga University, 2028
+    </ul>
+    <hr>
+	<h2>General and Technical Skills</h2>
+	<table>
+	  <tr>
+		<th>General Skills</th>
+		<th>Technical Skills</th>
+	  </tr>
+	  <tr>
+		<td>
+		  <ul>
+			<li>&#8226; Creativity</li>
+			<li>&#8226; Critical Thinking</li>
+			<li>&#8226; Problem Solving</li>
+			<li>&#8226; Multitasking</li>
+			<li>&#8226; Attentive to detail</li>
+		  </ul>
+		</td>
+		<td>
+		  <ul style="list-style-type: none; padding-left: 0; margin-top: 0;">
+			<li>&#8226; HTML</li>
+			<li>&#8226; CSS</li>
+			<li>&#8226; JavaScript</li>
+			<li>&#8226; Java</li>
+			<li>&#8226; C++</li>
+			<li>&#8226; C#</li>
+			<li>&#8226; Python</li>
+			<li>&#8226; Bootstrap</li>
+			<li>&#8226; jQuery</li>
+			<li>&#8226; MySQL</li>
+		  </ul>
+		</td>
+	  </tr>
+	</table>
+	<hr>
+	<h2>Character References</h2>
+	<p style="font-family: Arial, sans-serif; font-size: 16px; margin-bottom: 10px;">
+	  <strong>Sami Cezar</strong><br>
+	  <span style="font-size: 14px;"><i>Head of 3D</i></span><br>
+	  <span style="font-size: 15px;">Mega Cat Studios</span><br>
+	  <hr style="border-top: 3px solid #ccc; width: 17%; margin: 5px 0;">
+	  <b>Email:</b> samicezar@gmail.com<br>
+	  <strong>Relationship:</strong> Former Supervisor
+	</p>
+	<hr style="border-top: 1px solid #ccc; margin: 20px 0;">
+
+    <h2>Work Experience</h2>
+    <ul style="list-style-type: disc; padding-left: 20px;">
+      <li>
+        <strong>Metrobank Foundation Inc.</strong><br>
+        Software Development Junior (September 2026 - April 2028)<br>
+      </li>
+      <li>
+        <strong>Mega Cat Studios</strong><br>
+        Junior Software Engineer (August 2028 - September 2033)<br>
+      </li>
+    </ul>
+    <hr>
+  </div>
+</body>
+</html>
